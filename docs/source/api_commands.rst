@@ -518,17 +518,7 @@ Description:
 Parameters:
 
 
-app_zoned_clean
-~~~~~~~~~~~~~~~
 
-Description: Starts a zone clean
-
-Parameters:
-
-..
-    Us this the last known zone
-
-Returns: ok or error
 
 ======================  =========
 Vacuum Model            Supported
@@ -642,6 +632,18 @@ Vacuum Model            Supported
 ======================  =========
 Roborock S8 Pro Ultra   Yes
 ======================  =========
+
+app_zoned_clean
+~~~~~~~~~~~~~~~
+
+Description: Starts a zone clean
+
+Parameters:
+
+..
+    Us this the last known zone
+
+Returns: ok or error
 
 resume_zoned_clean
 ~~~~~~~~~~~~~~~~~~
